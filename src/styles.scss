@@ -45,22 +45,3 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /*******************/
 
-.mat-toolbar {
-  display: flex;
-  background: $color-tertiary;
-  color: aliceblue;
-  justify-content: space-between;
-  & > div {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    img {
-      margin-right: 25px;
-    }
-  }
-  & > div + div {
-    a + a {
-      margin-left: 10px;
-    }
-  }
-}
