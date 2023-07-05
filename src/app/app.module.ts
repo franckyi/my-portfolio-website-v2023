@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material/material.module';
-import { ProjectComponent } from './components/project/project.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProjectComponent,
+    ProjectsComponent,
     ToolbarComponent
   ],
   imports: [
