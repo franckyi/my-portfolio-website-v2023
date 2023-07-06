@@ -1,7 +1,7 @@
 export interface Project {
     title: string,
     subtitle: string,
-    headerClass: string
+    headerClass: string,
     avatarSrc: string,
     desc: string,
     designUrl: string | null,

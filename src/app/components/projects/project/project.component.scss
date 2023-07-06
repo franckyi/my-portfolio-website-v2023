@@ -12,11 +12,13 @@
 
 .mat-card {
     max-width: 400px;
+    height: 490px;
     border-radius: 20px;
     &:hover {
         scale: 1.05;
         box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: .3);
     }
+
 }
 
 .mat-card-actions > a {

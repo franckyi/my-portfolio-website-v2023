@@ -1,6 +1,6 @@
 <mat-card>
     <mat-card-header>
-      <div mat-card-avatar [class]="headerClass"></div>
+      <div mat-card-avatar [class]="getHeaderClass(project?.headerClass)"></div>
       <mat-card-title>{{project?.title}}</mat-card-title>
       <mat-card-subtitle></mat-card-subtitle>
     </mat-card-header>

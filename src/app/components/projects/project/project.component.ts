@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Project } from 'src/app/types/project';
-import { Projects } from 'src/app/types/projects';
 
 @Component({
   selector: 'app-project',
@@ -14,6 +13,18 @@ export class ProjectComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  getHeaderClass(headerClass: string | undefined) {
+
+    switch (headerClass) {
+      case 'angular': return 'header-angular';
+      case 'react': return 'header-react';
+      case 'vue': return 'header-vue';
+      case 'html': return 'header-html';
+      default: return 'html';
+    }
+
   }
 
 }
