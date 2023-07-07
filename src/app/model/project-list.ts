@@ -50,5 +50,15 @@ export const projectList: Projects = [
       designUrl: 'https://www.figma.com/file/aWiKGNLQsOeyiEDxn5uroS/francky-vers_2?type=design&node-id=0%3A1&mode=design&t=OiBOBnevobftradZ-1',
       gitUrl: 'https://gitlab.com/franckyiside/about',
       liveUrl: 'https://about.franckyiside.eu/',
+    },
+    {
+      title: 'Sauber Serwis',
+      subtitle: 'Wordpress',
+      headerClass: 'html',
+      avatarSrc: 'assets/img/sauber.jpg',
+      desc: 'The client needed a full package of services: logo design, UI/UX design, development and support with all the boring server/hosting stuff. First I designed the logo and set the color palette. Then with Affinity Designer I designed an UI that would give users a feel of freshness and clean, healthy life style.',
+      designUrl: null,
+      gitUrl: null,
+      liveUrl: 'http://sauberserwis.pl/',
     }
 ]

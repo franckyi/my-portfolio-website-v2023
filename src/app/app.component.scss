@@ -6,3 +6,13 @@
     padding: 4em;
     gap: 2em;
 }
+
+.intro {
+    padding: 3em;
+    text-align: center;
+    background: #fafafa;
+    p {
+        max-width: 990px;
+        margin: 0 auto;
+    }
+}
