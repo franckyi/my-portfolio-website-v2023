@@ -1,1 +1,44 @@
+@import '../../../sass/colors';
 
+.header-angular {
+    background-image: url('../../../assets/img/angular.svg');
+    background-size: cover;
+    border:  1px solid grey;
+}
+
+.header-html {
+    background-image: url('../../../assets/img/html5.svg');
+    background-size: cover;
+    border:  1px solid grey;
+}
+
+.mat-card {
+    max-width: 280px;
+    height: 440px;
+    border-radius: 20px;
+    border: 1px solid $color-primary;
+    transition: all ease-in-out .25s;
+    &:hover {
+        scale: 1.05;
+        cursor: pointer;
+        box-shadow: 5px 5px 8px rgba($color: #6c6c6c, $alpha: .2);
+    }
+
+}
+
+.mat-card-actions > a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: $color-primary;
+    border-radius: 50%;
+    border: 1px solid $color-primary;
+    &:hover {
+        background: $color-accent;
+        color: $color-dark;
+    }
+}
