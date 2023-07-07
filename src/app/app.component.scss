@@ -1,3 +1,5 @@
+@import '../sass/colors';
+
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -8,11 +10,14 @@
 }
 
 .intro {
-    padding: 3em;
-    text-align: center;
+    padding: 2em;
     background: #fafafa;
     p {
         max-width: 990px;
         margin: 0 auto;
+        font-size: 19px;
+        font-weight: lighter;
+        line-height: 32px;
+        color: $color-dark;
     }
 }
