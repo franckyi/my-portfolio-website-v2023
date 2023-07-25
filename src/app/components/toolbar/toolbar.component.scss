@@ -1,21 +1,13 @@
 @import '../../../sass/colors';
 
 .mat-toolbar {
-    display: flex;
-    background: $color-dark;
-    color: aliceblue;
-    justify-content: space-between;
-    & > div {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      img {
-        margin-right: 25px;
-      }
-    }
-    & > div + div {
-      a + a {
-        margin-left: 10px;
-      }
-    }
-  }
+  display: flex;
+  background: $color-dark;
+  color: aliceblue;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
