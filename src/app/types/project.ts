@@ -2,7 +2,7 @@ export interface Project {
     title: string,
     subtitle: string,
     headerClass: string,
-    avatarSrc: string,
+    imgSrc: string,
     desc: string,
     designUrl: string | null,
     gitUrl: string | null,

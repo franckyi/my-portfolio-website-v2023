@@ -1,12 +1,13 @@
 <mat-card *ngFor="let project of projects">
   <mat-card-header>
-    <div mat-card-avatar [class]="getHeaderClass(project?.headerClass)"></div>
+    <!-- <div mat-card-avatar [class]="getHeaderClass(project?.headerClass)"></div> -->
     <mat-card-title>{{project?.title}}</mat-card-title>
     <mat-card-subtitle>{{project?.subtitle}}</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image draggable="false" src="../../../{{project?.avatarSrc}}" alt="Preview of the app">
-  <mat-card-content><p>{{project?.desc}}</p>
-  </mat-card-content>
+  <img mat-card-image draggable="false" src="../../../{{project?.imgSrc}}" alt="Preview of the app">
+  
+  <!-- <mat-card-content><p>{{project?.desc}}</p></mat-card-content> -->
+
   <mat-card-actions>
     <a *ngIf="project.designUrl" [href]="project?.designUrl" target="_blank">
       <mat-icon aria-hidden="false" aria-label="Link to design" fontIcon="devices">design_services</mat-icon>

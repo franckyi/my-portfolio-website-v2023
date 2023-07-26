@@ -13,14 +13,20 @@
 }
 
 .mat-card {
-    max-width: 280px;
+    max-width: 300px;
     height: 440px;
     border-radius: 10px;
     border: 1px solid $color-primary;
     transition: all ease-in-out .25s;
+    box-shadow: none;
     &:hover {
-        scale: 1.05;
-        box-shadow: 5px 5px 8px rgba($color: #6c6c6c, $alpha: .2);
+        scale: 1.02;
+        // box-shadow: 5px 5px 8px rgba($color: #6c6c6c, $alpha: .2);
+    }
+    &-image {
+        // width: 332px;
+        // height: 365px;
+        margin-bottom: 0;
     }
 
 }
