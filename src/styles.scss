@@ -45,3 +45,27 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /*******************/
 
+body {
+  font-size: 18px;
+  background: $color-black;
+  color: $color-light;
+  letter-spacing: 1px;
+}
+
+.intro {
+  padding: 2em;
+  max-width: 1070px;
+  margin: 1rem auto;
+  font-weight: lighter;
+  line-height: 28px;
+}
+
+.projects {
+  max-width: 1070px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
