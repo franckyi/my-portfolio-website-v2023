@@ -2,12 +2,12 @@
 
 .mat-card {
     width: 220px;
-    height: 315px;
+    height: 316px;
     border-radius: 7px;
-    background: $color-dark;
+    background: $color-primary;
     color: $color-light;
-    border: 1px solid $color-dark;
-    border-bottom: 3px solid $color-dark;
+    border: 1px solid $color-primary;
+    border-bottom: 3px solid $color-primary;
     transition: all ease-in-out .25s;
     box-shadow: none;
     &:hover {
@@ -30,6 +30,9 @@
         transition: .3s;
         border-radius: 0 0 7px 7px;
     }
+    &-content {
+        color: $color-light;
+    }
     &-content,
     &-actions {
         opacity: 0;;
@@ -45,10 +48,10 @@
         height: 20px;
         width: 20px;
         padding: 5px;
-        margin: -4px 8px 0 0;
-        color: $color-primary;
+        margin: -4px 6px 0 6px;
+        color: $color-light;
         border-radius: 50%;
-        border: 1px solid $color-primary;
+        border: 1px solid $color-light;
         &:hover {
             border-color: $color-accent;
             color: $color-accent;
@@ -77,5 +80,6 @@
     }
     &__subtitle {
         font-size: 14px;
+        color: $color-medium;
     }
 }

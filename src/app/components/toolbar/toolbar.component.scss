@@ -2,11 +2,20 @@
 
 .mat-toolbar {
   display: flex;
-  background: $color-dark;
-  color: aliceblue;
+  background: $color-primary;
   justify-content: space-around;
   gap: 20px;
-  padding: 0 25px;
+  padding: 0 30px;
+  a,
+  a:visited,
+  a:active,
+  a:focus,
+  a:focus-visible {
+    color: $color-light;
+    text-decoration: none;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
 }
 
 .spacer {
