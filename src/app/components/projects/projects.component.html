@@ -11,11 +11,17 @@
     <a *ngIf="project.designUrl" [href]="project?.designUrl" target="_blank">
       <mat-icon aria-hidden="false" aria-label="Link to design" fontIcon="devices">design_services</mat-icon>
     </a>
+    <span *ngIf="project.designUrl">Design</span>
+
     <a *ngIf="project.gitUrl" [href]="project?.gitUrl" target="_blank">
       <mat-icon aria-hidden="false" aria-label="Link to code repository" fontIcon="code">code</mat-icon>
     </a>
+    <span *ngIf="project.gitUrl">Code</span>
+
     <a *ngIf="project.liveUrl" [href]="project?.liveUrl" target="_blank">
       <mat-icon aria-hidden="false" aria-label="Link to website or app" fontIcon="devices">devices</mat-icon>
     </a>
+    <span *ngIf="project.liveUrl">Live</span>
+
   </mat-card-actions>
 </mat-card>

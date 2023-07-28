@@ -4,8 +4,9 @@
   display: flex;
   background: $color-primary;
   justify-content: space-around;
-  gap: 20px;
-  padding: 0 30px;
+  gap: 5px;
+  padding: 0 4rem;
+  font-size: 16px;
   a,
   a:visited,
   a:active,
@@ -15,7 +16,25 @@
     text-decoration: none;
     font-weight: lighter;
     letter-spacing: 1px;
+    padding: 5px 10px;
+    border: 1px solid $color-primary;
+    border-bottom: 3px solid $color-primary;
+    height: 30px;
+    border-radius: 5px;
+    transition: all .3s;
   }
+  a:hover {
+    color: $color-accent;
+    border: 1px solid $color-accent;
+    border-bottom: 3px solid $color-accent;
+    svg {
+      fill: $color-accent;
+    }
+  }
+  svg {
+    margin-top: 6px;
+  }
+  
 }
 
 .spacer {
