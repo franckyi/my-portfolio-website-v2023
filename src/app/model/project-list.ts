@@ -41,7 +41,7 @@ export const projectList: Projects = [
       title: 'Seconds Formatter',
       subtitle: 'Vanilla JavaScript',
       imgSrc: './assets/img/seconds.jpg',
-      desc: 'Try to input any amount of seconds, even one million of seconds. It returns to you a beautiful, readable, more human-friendly format instead of the seconds count.',
+      desc: 'Guess how many days are one million seconds? Don\'t know? Check it with this mini tool. It\'ll return the answer in a readable, human-friendly format.',
       designUrl: null,
       gitUrl: 'https://gitlab.com/franckyiside/seconds-formatter',
       liveUrl: 'https://francky.works/seconds-formatter/',
