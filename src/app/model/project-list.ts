@@ -11,6 +11,15 @@ export const projectList: Projects = [
       liveUrl: 'https://francky.works/basket-maniacs',
     },
     {
+      title: 'Lantu.pl',
+      subtitle: 'Angular/Material',
+      imgSrc: './assets/img/lantu.jpg',
+      desc: 'A simple frontpage made with Angular to deliver information about natural products from Madagascar.',
+      designUrl: null,
+      gitUrl: 'https://gitlab.com/franckyiside/lantu',
+      liveUrl: 'https://lantu.pl',
+    },
+    {
       title: 'Weather Web App',
       subtitle: 'Vanilla JavaScript',
       imgSrc: './assets/img/weather-js.jpg',
