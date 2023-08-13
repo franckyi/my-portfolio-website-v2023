@@ -38,6 +38,15 @@ export const projectList: Projects = [
       liveUrl: 'https://francky.works/weather-app',
     },
     {
+      title: 'G-BIZ Website',
+      subtitle: 'Vanilla JavaScript',
+      imgSrc: './assets/img/weather-js.jpg',
+      desc: 'A weather app with dynamically changing background image basing on your current weather. Thanks to HTML5 Geolocation API retrieves weather info for local or remote position. OpenWeather API provides the weather info, which I integrated with Pexels API to change the images.',
+      designUrl: null,
+      gitUrl: 'https://gitlab.com/franckyiside/weather-app-vanilla-js',
+      liveUrl: 'https://francky.works/weather-app',
+    },
+    {
       title: 'Weather Web App',
       subtitle: 'Angular/Material',
       imgSrc: './assets/img/weather-angular.jpg',
