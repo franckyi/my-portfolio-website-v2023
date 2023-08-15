@@ -2,8 +2,8 @@ import { Projects } from "../types/projects";
 
 export const projectList: Projects = [
     {
-      title: 'Basket Maniacs Web App',
-      subtitle: 'Angular/RxJs/Material',
+      title: 'Basket Maniacs App',
+      subtitle: 'Angular/RxJs/Jasmine',
       imgSrc: './assets/img/bm.jpg',
       desc: 'A SPA dedicated to NBA fans showing latest news, scores, info about teams and players. Uses Angular Material, services and RxJs operators to elaborate data received from remote APIs. I\'m continuously improving it.',
       designUrl: 'https://www.figma.com/file/zXa5Q8IpAgz19Uqle2R4NH/Serwis-NBA?type=design&node-id=0%3A1&mode=design&t=QtLDPxJ0HFTGQ87l-1',
@@ -20,7 +20,7 @@ export const projectList: Projects = [
       liveUrl: 'https://francky.works/seconds-formatter/',
     },
     {
-      title: 'Weather Web App',
+      title: 'Weather App',
       subtitle: 'JavaScript',
       imgSrc: './assets/img/weather-js.jpg',
       desc: 'A weather app with dynamically changing background image basing on your current weather. Thanks to HTML5 Geolocation API retrieves weather info for local or remote position. OpenWeather API provides the weather info, which I integrated with Pexels API to change the images.',
@@ -47,7 +47,7 @@ export const projectList: Projects = [
       liveUrl: 'https://lantu.pl',
     },
     {
-      title: 'Weather Web App',
+      title: 'Weather App',
       subtitle: 'Angular/Material',
       imgSrc: './assets/img/weather-angular.jpg',
       desc: 'Angular version of the weather app. I\'ve had a taste of Vue and React doing this same application. Check them on my GitLab profile.',
