@@ -7,7 +7,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/bm.jpg',
       desc: 'A SPA dedicated to NBA fans showing latest news, scores, info about teams and players. Uses Angular Material, services and RxJs operators to elaborate data received from remote APIs. I\'m continuously improving it.',
       designUrl: 'https://www.figma.com/file/zXa5Q8IpAgz19Uqle2R4NH/Serwis-NBA?type=design&node-id=0%3A1&mode=design&t=QtLDPxJ0HFTGQ87l-1',
-      gitUrl: 'https://gitlab.com/franckyiside/nba-app',
+      gitUrl: 'https://github.com/franckyi/basket-maniacs-app',
       liveUrl: 'https://francky.works/basket-maniacs',
     },
     {
@@ -16,7 +16,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/seconds.jpg',
       desc: 'Guess how many days are one million seconds? Don\'t know? Check it with this mini tool. It\'ll return the answer in a readable, human-friendly format.',
       designUrl: null,
-      gitUrl: 'https://gitlab.com/franckyiside/seconds-formatter',
+      gitUrl: 'https://github.com/franckyi/seconds-formatter',
       liveUrl: 'https://francky.works/seconds-formatter/',
     },
     {
@@ -25,7 +25,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/weather-js.jpg',
       desc: 'A weather app with dynamically changing background image basing on your current weather. Thanks to HTML5 Geolocation API retrieves weather info for local or remote position. OpenWeather API provides the weather info, which I integrated with Pexels API to change the images.',
       designUrl: null,
-      gitUrl: 'https://gitlab.com/franckyiside/weather-app-vanilla-js',
+      gitUrl: 'https://github.com/franckyi/weather-app-vanilla-js',
       liveUrl: 'https://francky.works/weather-app',
     },
     {
@@ -34,7 +34,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/godere.jpg',
       desc: 'Godere specialises in building highly performant gaming computers and workstations. But with a particularity: the cases are built on the top of 1000+ LEGO pieces! I designed the logo, business cards and developed the website.',
       designUrl: 'https://www.behance.net/gallery/78871491/Godere-Logo',
-      gitUrl: 'https://gitlab.com/franckyiside/godere',
+      gitUrl: 'https://github.com/franckyi/godere.pl',
       liveUrl: 'https://en.godere.pl/',
     },
     {
@@ -43,7 +43,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/lantu.jpg',
       desc: 'Lantu imports original, natural products from Madagascar such as vanilla and cloves. The website helps delivering more info about the products.',
       designUrl: null,
-      gitUrl: 'https://gitlab.com/franckyiside/lantu',
+      gitUrl: 'https://github.com/franckyi/lantu.pl',
       liveUrl: 'https://lantu.pl',
     },
     {
@@ -52,7 +52,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/weather-angular.jpg',
       desc: 'Angular version of the weather app. I\'ve had a taste of Vue and React doing this same application. Check them on my GitLab profile.',
       designUrl: null,
-      gitUrl: 'https://gitlab.com/franckyiside/weather-app',
+      gitUrl: 'https://github.com/franckyi/weather-app-angular',
       liveUrl: 'https://francky.works/weather-app-angular',
     },
     {
@@ -61,7 +61,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/gbiz.jpg',
       desc: 'G-BIZ offers accounting services in the Trójmiasto area. The website provide clients with all info they need before contacting. I designed the logo and developed the website.',
       designUrl: 'https://www.behance.net/gallery/70245947/G-BIZ-Logo-Website',
-      gitUrl: 'https://gitlab.com/franckyiside/g-biz-website',
+      gitUrl: 'https://github.com/franckyi/g-biz.pl',
       liveUrl: 'http://g-biz.pl',
     },
     {
@@ -79,7 +79,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/wedding.jpg',
       desc: 'Tiffania and Justin needed a web page to provide guests more info about their wedding. I came to help developing a simple, elegant and fully responsive website featuring a JavaScript countdown to the date and every info guests may need to reach the locations.',
       designUrl: null,
-      gitUrl: 'https://gitlab.com/franckyiside/wedding-website',
+      gitUrl: 'https://github.com/franckyi/justinandtiffania.com',
       liveUrl: 'https://justinandtiffania.com/',
     },
     {
@@ -88,7 +88,7 @@ export const projectList: Projects = [
       imgSrc: './assets/img/vsc.jpg',
       desc: 'A pack of color themes for Visual Studio Code inspired by popular developer tools. It currently includes colors of Angular Material Doc and Firefox DevTools. Install the extension "DevThemes pack" directly from VSC extensions or download it online on Microsoft VSC marketplace.',
       designUrl: null,
-      gitUrl: 'https://gitlab.com/franckyiside/vsc-devthemes',
+      gitUrl: 'https://github.com/franckyi/devthemes-vsc',
       liveUrl: 'https://marketplace.visualstudio.com/publishers/FranckyIside',
     }
 ]
